@@ -1,0 +1,71 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.zod-form-app {
+  width: 400px;
+  margin: 0 auto 20px;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgb(87, 87, 87);
+}
+
+.form-input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid black;
+  background-color: plum;
+  color: black;
+  outline: none;
+
+  
+}
+
+.form-input:focus {
+  border-color: #9a86fd;
+}
+
+.form-input-error {
+  border-color: red;
+}
+
+.error-text {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+
+.submit-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  background-color: #9a86fd;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #7a5acc;
+}
